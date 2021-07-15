@@ -1,0 +1,140 @@
+		#work{
+			width: 100%;
+			height: 100%;
+			background-color: #0c0c0c;
+			float: right;
+			position: absolute;
+			margin-left: 80%;
+			box-shadow: -5px 0px 2px #0c0c0c;
+			transition: all 0.5s ease-in-out;
+			z-index: 3;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    		box-sizing: content-box;
+		}
+
+		#work h2{
+			margin-left: 25px;
+			margin-top: 50px;
+		}
+		#top{
+			width: 100%;
+			display: block;
+			height: 20vh;
+		}
+		#top h2{
+			float: left;
+		}
+
+		#top img{
+			width: 20%;
+			height: 100%;
+			float: right;
+			cursor: pointer;
+		}
+
+		#work:hover{
+			transform: perspective(0.14rem) translateX(-1rem);
+		}
+		
+		#work h2{
+			text-align: left;
+			color: #fff;
+		}
+
+		#gallery{
+			width: 100%;
+		}
+
+		.image{
+			width: 30%;
+			height: 15rem;
+			float: left;
+			margin: 1.667%;
+			background-color: white;
+		}
+
+		#nav{
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+
+		#nav ul{
+			width: 100%
+		}
+		#nav li{
+			float: left;
+			width: auto;
+			margin-right: 3.5%;
+			margin-bottom: 2%;
+			list-style: none;
+		}
+
+		#nav a{
+			text-decoration: none;
+			color: white;
+			font-size: 11pt;
+			text-align: center;
+		}
+
+		#nav li a:hover{
+			background-color: white;
+			color: black;
+			border-radius: 40px;
+			padding: 10px;
+		}
+
+		#nav li a:focus{
+			background-color: white;
+			color: black;
+			border-radius: 40px;
+			padding: 10px;
+		}
+
+		@media only screen and (min-width: 300px) and (max-width: 425px){
+		#work{
+			width: 100%;
+			height: 20vh;
+			background-color: #0c0c0c;
+			display: block;
+			position: absolute;
+			margin-left: 0%;
+			margin-top: 80vh;
+			box-shadow: -5px 0px 2px #0c0c0c;
+			transition: all 0.5s ease-in-out;
+			z-index: 3;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    		box-sizing: content-box;
+		}
+		#work h2{
+			margin-left: 25px;
+			margin-top: 50px;
+		}
+		#top img{
+			width: 30%;
+			height: 100%;
+			float: right;
+			cursor: pointer;
+		}
+		#nav li{
+			width: 33.3%;
+			margin-bottom: 2%;
+			margin-left: 2%;
+			list-style: none;
+		}
+
+		#gallery{
+			width: 100%;			
+		}
+		.image{
+			width: 80%;
+			height: 30vh;
+			margin: 5% 10%;
+			background-color: white;
+
+		}
+	}

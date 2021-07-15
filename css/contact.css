@@ -1,0 +1,173 @@
+#contact{
+			width: 72%;
+			height: 100vh;
+			background-color: #ea4a3a;
+			float: right;
+			position: absolute;
+			transition: transform 0.5s ease-in-out;
+			z-index: 2;
+			margin-left: 70%;
+			box-shadow: -5px 0px 2px #ea4a3a;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    		box-sizing: content-box;
+		}
+
+		#contact h2{
+			margin-left: 25px;
+			margin-top: 50px;
+		}
+
+		#contact:hover{
+			transform: perspective(0.14rem) translateX(-1rem);
+		}
+		#contact-info{
+			width: 100%;
+		}
+
+		#contact-left span{
+			color: #fff;
+		}
+
+		#contact-left{
+			width: 42%;
+			float: left;
+			margin-left: 25px;
+		}
+
+		#contact-left p{
+			font-size: 25pt;
+		}
+		#below{
+			margin-top: 45vh;
+		}
+		#contact-left a{
+			text-decoration: none;
+			color: black;
+			font-size: 18pt;
+		}
+
+		#contact-left #small{
+			font-size: 15pt;
+		}
+
+		#contact-line{
+			border-color: black;
+			height: 72vh;
+			float: left;
+			margin-top: 35px;
+		}
+		#contact-right{
+			width: 40%;
+			float: left;
+			margin-left: 45px;
+			margin-top: 15px;
+		}
+
+		#contact-right p{
+			font-size: 16pt;
+			font-style: italic;
+		}
+
+		#contact-right input{
+			width: 100%;
+			background-color: #ea4a3a;
+			opacity: 1;
+			height: 20px;
+			border: none;
+			border-bottom: 1px solid black;
+			color: black;
+		}
+
+		#mail{
+			margin-top: 10vh;
+		}
+
+		#msg{
+			width: 100%;
+			height: 7vh;
+			margin-top: 30vh;
+			background-color: #ea4a3a;
+			border: none;
+			border-bottom: 1px solid black;
+			overflow: hidden;
+		}
+
+		::placeholder{
+			color: black;
+			font-size: 12pt;
+		}
+
+		button{
+			width: 30%;
+			height: 5vh;
+			background-color: white;
+			text-align: center;
+			font-size: 12pt;
+			border: none;
+			border-radius: 50px;
+			float: right;
+			margin-top: 40px;
+			cursor: pointer;
+		}
+
+		@media only screen and (min-width: 300px) and (max-width: 425px){
+		#contact{
+			width: 100%;
+			height: 10vh;
+			background-color: #ea4a3a;
+			display: block;
+			position: absolute;
+			transition: transform 0.5s ease-in-out;
+			z-index: 2;
+			margin-top: 70vh;
+			margin-left: 0%;
+			box-shadow: -5px 0px 2px #ea4a3a;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    		box-sizing: content-box;
+		}
+
+		#contact h2{
+			margin-left: 25px;
+			margin-top: 20px;
+		}
+		#contact-left{
+			width: 100%;
+			height: 20vh;
+			margin: 0 10%;
+		}
+		#below{
+			margin-top: 75vh;
+			width: 90%;
+			padding-bottom: 2vh;
+		}
+		#contact-line{
+			border-color: white;
+			height: 0.5px;
+			width: 80%;
+			color: white;
+			margin: 5% 10%;
+		}
+		#contact-right{
+			width: 80%;
+			margin: 5% 10%;
+		}
+		#contact-left p{
+			font-size: 22pt;
+		}
+		#contact-left #small{
+			font-size: 12pt;
+		}
+		#msg{
+			width: 100%;
+			height: 7vh;
+			margin-top: 10vh;
+			background-color: #ea4a3a;
+			border: none;
+			border-bottom: 1px solid black;
+			overflow: hidden;
+		}
+	}

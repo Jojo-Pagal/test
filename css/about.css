@@ -1,0 +1,161 @@
+#about{
+			width: 72%;
+			height: 100vh;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			background-color: #fa532d;
+			float: left;
+			position: absolute;
+			transition: transform 0.5s ease-in-out;
+			padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    		box-sizing: content-box;
+			margin-left: 60%;
+			z-index: 1;
+			box-shadow: -5px 0px 2px #fa532d;
+		}
+
+		#about h2{
+			margin-left: 25px;
+			margin-top: 50px;
+		}
+
+		#about:hover{
+			transform: perspective(0.14rem) translateX(-1rem);
+		}
+
+		#data{
+			width: 100%;
+			height: 100%;
+		}
+		#about-left{
+			width: 40%;
+			float: left;
+		}
+		#about-left p{
+			font-size: 22pt;
+			width: 50%;
+			margin-left: 50px;
+		}
+
+		#between{
+			height: 170vh;
+			float: left;
+			border-color: black;
+			margin: 0 9%;
+			margin-top: 35px;
+		}
+
+		#about-left span{
+			color: #fff;
+		}
+
+		#about-right{
+			width: 40%;
+			float: right;
+			margin-right: 10px;
+		}
+
+		#about-right h2{
+			font-style: italic;
+			margin-left: 0;
+		}
+
+		.line{
+			border-color: black;
+			margin: 20px 0;
+		}
+
+		#services{
+			width: 100%;
+			margin-bottom: 10px;
+			height: 20vh;
+		}
+		#services-left{
+			width: 50%;
+			float: left;
+		}
+		#services-right{
+			width: 50%;
+			float: right;
+		}
+		label{
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		h1{
+			float: left;
+			width: 100%;
+			font-size: 85pt;
+			text-align: center;
+			margin: 10px;
+		}
+
+		#footer{
+			text-align: center;
+			display: block;
+			position: relative;
+		}
+
+/*				Responsive design				*/
+
+		@media only screen and (min-width: 300px) and (max-width: 425px){
+		#about{
+			width: 100%;
+			height: 10vh;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			background-color: #fa532d;
+			display: block;
+			position: absolute;
+			transition: transform 0.5s ease-in-out;
+			padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    		box-sizing: content-box;
+			margin-top: 60vh;
+			margin-left: 0%;
+			z-index: 1;
+			box-shadow: -5px 0px 2px #fa532d;
+		}
+
+		#about h2{
+			margin-left: 25px;
+			margin-top: 20px;
+		}
+
+		#data{
+			width: 100%;
+			height: 98vh;
+		}
+		#about-left{
+			width: 100%;
+		}
+		#about-left p{
+			font-size: 18.612pt;
+			width: 80%;
+			margin: 0 10%;
+		}
+		#between{
+			width: 80%;
+			height: 0.5px;
+			border-color: black;
+			margin: 0 10%;
+			margin-top: 35px;
+		}
+		#about-right{
+			width: 80%;
+			margin: 2% 10%;
+		}
+
+		#services{
+			width: 100%;
+			margin-bottom: 15%;
+			height: 20vh;
+		}
+
+		h1{
+			width: 80%;
+			font-size: 33pt;
+			text-align: center;
+			margin: 5% 10%;
+		}
+	}
